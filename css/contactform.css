@@ -1,0 +1,112 @@
+#contact-form textarea:focus, input:focus{
+    outline: none;
+}
+#contact-form ul li {
+    list-style: none;
+}
+
+#contact-form h1{
+    font-weight: 800;
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin: 30px 100px;
+}
+#contact-form ul {
+    display: inline-block
+}
+
+#contact-form  {
+    margin-top: 5%;
+    margin-left:37%;
+    width: 25%;
+    height: 60%;
+    background-color: #191963;
+    position: fixed auto;
+}
+
+.form-content input {
+    border: 0;
+    margin-left: 105px;
+    width: 270px;
+    padding: 10px;
+    border-bottom: 2px solid white;
+    background: #14144b;
+    font-family: 'Fontawesome', 'Source Sans Pro', sans-serif;
+    display: block;
+    color: white;
+    
+}
+#contact-form textarea{
+    border: 0;
+    width: 270px;
+    height: 100px;
+    display: block;
+    margin-left: 105px;
+    margin-top: 30px;
+    background: #14144b;
+    padding: 20px;
+    font-family: 'Fontawesome', 'Source Sans Pro', sans-serif;
+    border-bottom: 2px solid white;
+    color: white;
+}
+.form-content #submit {
+  margin: 3em auto 4em;
+  border: 2px solid white;
+  color: white;
+}
+#contact-form #submit:hover {
+    color: white;
+}
+#contact-form p {
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#contact-form #submit{
+    background: white;
+    border: 2px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    padding: 0.9rem 10rem;
+    color: black;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    font-style:initial;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    transition: ease all .3s;
+    display: block;
+}
+
+#contact-form #submit:hover{
+    background: #f91e68;
+    color: #fff; border:
+    #f91e68 solid 2px;
+}
+#contact-form  #submit:active{
+    background: white;
+    color: #fff;
+    border: #f91e68 solid 2px;
+}
+
+#contact-form .close{
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 3em;
+    color: #ee4444;
+}
+@media screen and (max-width: 1000px) {
+    #contact-form textarea{
+        width: 250px;
+    }
+    #contact-form input {
+        width: 250px;
+    }
+    #contact-form {
+        height: 60%;
+        width: 450px;
+    }
+}
