@@ -16,20 +16,22 @@
 #contact-form ul {
     display: inline-block
 }
-
+.modal {
+    margin: auto auto;
+    padding-right: 0;
+}
 #contact-form  {
-    margin-top: 5%;
-    margin-left:37%;
-    width: 25%;
-    height: 60%;
+    text-align: center;
+    width: 35rem;
+    height: 35rem;
     background-color: #191963;
-    position: fixed auto;
+    
 }
 
 .form-content input {
     border: 0;
-    margin-left: 105px;
-    width: 270px;
+    margin-left: 25%;
+    width: 50%;
     padding: 10px;
     border-bottom: 2px solid white;
     background: #14144b;
@@ -38,12 +40,13 @@
     color: white;
     
 }
+
 #contact-form textarea{
     border: 0;
-    width: 270px;
+    width: 50%;
     height: 100px;
     display: block;
-    margin-left: 105px;
+    margin-left: 25%;
     margin-top: 30px;
     background: #14144b;
     padding: 20px;
@@ -94,9 +97,9 @@
 
 #contact-form .close{
     cursor: pointer;
-    font-weight: 400;
-    font-size: 3em;
+    font-size: 3.5rem;
     color: #ee4444;
+    margin-top: -1.5rem;
 }
 @media screen and (max-width: 1000px) {
     #contact-form textarea{
