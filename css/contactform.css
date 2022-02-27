@@ -102,14 +102,34 @@
     margin-top: -1.5rem;
 }
 @media screen and (max-width: 1000px) {
+    #contact-form h1 {
+        font-size: 1.3rem;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    
+    }
+    #contact-form p {
+        width: 10rem;
+    }
     #contact-form textarea{
-        width: 250px;
+        width: 10.5rem;
+        margin-left: 2.2rem;
     }
     #contact-form input {
-        width: 250px;
+        width: 10.5rem;
+        margin-left: 35px;
     }
     #contact-form {
-        height: 60%;
-        width: 450px;
+        height: 20rem;
+        width: 15rem;
+    }
+    #contact-form #submit {
+        margin-top: 2rem;
+        margin-left: 3.5rem;
+        margin-bottom: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        font-size: 1rem;
     }
 }
