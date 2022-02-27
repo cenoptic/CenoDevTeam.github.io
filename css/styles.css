@@ -188,6 +188,21 @@ p{
 
 }
 
+/* read more feature */
+#readmorebtn {
+    margin-top: -20px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: transparent; 
+    border: transparent;
+}
+#readmorebtn:hover {
+    color: #f91e68;
+}
+#more {
+    display: none;
+}
+
 /* Testimonial Section */
 
 #testimonials{
