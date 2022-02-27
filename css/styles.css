@@ -601,7 +601,7 @@ div.my-user-card p {
     }
 }
 
-@media (max-width: 650px){
+@media (max-width: 1080px){
     #title{
         text-align: center;
     }

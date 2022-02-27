@@ -101,35 +101,38 @@
     color: #ee4444;
     margin-top: -1.5rem;
 }
-@media screen and (max-width: 1000px) {
+@media (max-width: 1080px) {
     #contact-form h1 {
         font-size: 1.3rem;
         text-align: center;
-        margin-left: 0;
+        margin-left: 45px;
         margin-right: 0;
     
     }
     #contact-form p {
-        width: 10rem;
+        width: 14rem;
     }
     #contact-form textarea{
         width: 10.5rem;
-        margin-left: 2.2rem;
+        margin-left: 4rem;
     }
     #contact-form input {
         width: 10.5rem;
-        margin-left: 35px;
+        margin-left: 4rem;
     }
     #contact-form {
-        height: 20rem;
-        width: 15rem;
+        height: 22rem;
+        width: 18rem;
     }
     #contact-form #submit {
         margin-top: 2rem;
-        margin-left: 3.5rem;
+        margin-left: 4.5rem;
         margin-bottom: 2rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
         font-size: 1rem;
+    }
+    #contact-form .close {
+        margin-right: 1rem;
     }
 }
