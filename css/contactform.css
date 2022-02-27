@@ -103,33 +103,33 @@
 }
 @media (max-width: 1080px) {
     #contact-form h1 {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         text-align: center;
         margin-left: 45px;
         margin-right: 0;
     
     }
     #contact-form p {
-        width: 14rem;
+        width: 16rem;
     }
     #contact-form textarea{
-        width: 10.5rem;
-        margin-left: 4rem;
+        width: 16rem;
+        margin-left: 3.2rem;
     }
     #contact-form input {
-        width: 10.5rem;
-        margin-left: 4rem;
+        width: 16rem;
+        margin-left: 3.2rem;
     }
     #contact-form {
-        height: 22rem;
-        width: 18rem;
+        height: 35rem;
+        width: 22rem;
     }
     #contact-form #submit {
         margin-top: 2rem;
         margin-left: 4.5rem;
-        margin-bottom: 2rem;
-        padding-left: 3rem;
-        padding-right: 3rem;
+        margin-bottom: 1.5rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
         font-size: 1rem;
     }
     #contact-form .close {
