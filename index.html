@@ -114,9 +114,9 @@
                             </a>
                         </div>
                         <!--Excerpt-->
-                        <script> function ReadMoreFunction() {
-                            var moreText = document.getElementById("more");
-                            var btnText = document.getElementById("readmorebtn");
+                        <script> function ReadMoreFunction1() {
+                            var moreText = document.getElementById("More1");
+                            var btnText = document.getElementById("ReadMoreBtn1");
                           
                             if (btnText.innerHTML === "Read more ...") {
                               btnText.innerHTML = "Read less";
@@ -130,8 +130,8 @@
                             <div>
                                 <h4 class="font-weight-bold my-3" >DU-M4TH</h4>
                                 <p style="color:black;">Description</p>
-                                <p style="color:black;">  An educational maths game<span id="more"> to help you learn and practice your skills at varying difficulty levels across mathematics</span></p>
-                                <button onclick="ReadMoreFunction()" id="readmorebtn">Read more ...</button>
+                                <p style="color:black;">  An educational maths game<span id="More1"> to help you learn and practice your skills at varying difficulty levels across mathematics</span></p>
+                                <button onclick="ReadMoreFunction1()" id="ReadMoreBtn1">Read more ...</button>
                                 <p style="color:black;">Rating    
                                     <span class="vl"></span>                         
                                     <span class="fa fa-star check-yellow fa-sm"></span>
@@ -160,11 +160,24 @@
                             </a>
                         </div>
                         <!--Excerpt-->
+                        <script> function ReadMoreFunction2() {
+                            var moreText = document.getElementById("More2");
+                            var btnText = document.getElementById("ReadMoreBtn2");
+                          
+                            if (btnText.innerHTML === "Read more ...") {
+                              btnText.innerHTML = "Read less";
+                              moreText.style.display = "inline";
+                            } else  {
+                              btnText.innerHTML = "Read more ...";
+                              moreText.style.display = "none";
+                            }
+                          }</script>
                         <div class="card-body pb-0">
                             <div>
                                 <h4 class="font-weight-bold my-3" >Spring Hockey</h4>
                                 <p style="color:black;">Description</p>
-                                <p style="color:black;">Still in development, coming soon</p>
+                                <p style="color:black;">Still in development,<span id="More2"> coming soon</span></p>
+                                <button onclick="ReadMoreFunction2()" id="ReadMoreBtn2">Read more ...</button>
                                 <p style="color:black;">Rating    
                                     <span class="vl"></span>                         
                                     <span class="fa fa-star check-yellow fa-sm"></span>
@@ -193,11 +206,24 @@
                             </a>
                         </div>
                         <!--Excerpt-->
+                        <script> function ReadMoreFunction3() {
+                            var moreText = document.getElementById("More3");
+                            var btnText = document.getElementById("ReadMoreBtn3");
+                          
+                            if (btnText.innerHTML === "Read more ...") {
+                              btnText.innerHTML = "Read less";
+                              moreText.style.display = "inline";
+                            } else  {
+                              btnText.innerHTML = "Read more ...";
+                              moreText.style.display = "none";
+                            }
+                          }</script>
                         <div class="card-body pb-0">
                             <div>
                                 <h4 class="font-weight-bold my-3" >Orbit</h4>
                                 <p style="color:black;">Description</p>
-                                <p style="color:black;">Still in development, coming soon</p>
+                                <p style="color:black;">Still in development,<span id="More3"> coming soon</span></p>
+                                <button onclick="ReadMoreFunction3()" id="ReadMoreBtn3">Read more ...</button>
                                 <p style="color:black;">Rating    
                                     <span class="vl"></span>                         
                                     <span class="fa fa-star check-yellow fa-sm"></span>
