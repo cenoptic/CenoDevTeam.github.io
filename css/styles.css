@@ -196,6 +196,9 @@ p{
     color: white;
     background-color: transparent; 
     border: transparent;
+    transition: color .5s;
+    cursor:pointer;
+    
 }
 #ReadMoreBtn1:hover {
     color: #f91e68;
@@ -211,6 +214,8 @@ p{
     color: white;
     background-color: transparent; 
     border: transparent;
+    transition: color .5s;
+    cursor:pointer;
 }
 #ReadMoreBtn2:hover {
     color: #f91e68;
@@ -226,6 +231,8 @@ p{
     color: white;
     background-color: transparent; 
     border: transparent;
+    transition: color .5s;
+    cursor:pointer;
 }
 #ReadMoreBtn3:hover {
     color: #f91e68;
